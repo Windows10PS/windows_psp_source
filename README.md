@@ -4,8 +4,8 @@ This repo is for publish the last releases of own Shell/Homebrew called "Windows
 
 this Shell is avariable for:
  
-  -PSP (1000 - 2000 - 3000 - E1000 Street).
-  -PSP GO.
+ -PSP (1000 - 2000 - 3000 - E1000 Street).
+ -PSP GO.
   
 
 Changelog
