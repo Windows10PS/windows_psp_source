@@ -14,4 +14,4 @@ Changelog
 
 Alpha 1.0:
 
- -Initial code project.
+ -Initial basic base code.
