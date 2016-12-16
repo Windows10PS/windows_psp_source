@@ -1,9 +1,9 @@
 while true do
 buttons.read()
 img = image.load("img/wallpaper.png")
-100 = image.load("img/battery/100.png")
-50 = image.load("img/battery/50.png")
-10 = image.load("img/battery/10.png")
+battery100 = image.load("img/battery/100.png")
+battery50 = image.load("img/battery/50.png")
+battery10 = image.load("img/battery/10.png")
 charge = image.load("img/battery/charge.png")
 
 -- ## INICIAR WIFI DESDE EL INICIO DEL HOMEBREW ##
