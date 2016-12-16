@@ -1,7 +1,10 @@
 while true do
 buttons.read()
-img = image.load("img/login.png")
-if img then img:blit(0,0) end
+img = image.load("img/wallpaper.png")
+100 = image.load("img/battery/100.png")
+50 = image.load("img/battery/50.png")
+10 = image.load("img/battery/10.png")
+charge = image.load("img/battery/charge.png")
 
 -- ## INICIAR WIFI DESDE EL INICIO DEL HOMEBREW ##
 --wlan.connect()
@@ -11,15 +14,16 @@ if img then img:blit(0,0) end
 --Linea = archivo:read() -- SOLO SE LEE LA PRIMERA LINEA
 --screen.print(220,130,Linea) -- IMPRIMIENDO USUARIO
 
--- ## LEER USUARIO DESDE EL NICK DE LA PSP ##
-screen.print(200,130,""..os.nick())
-
 -- ## REINICIAR HOMEBREW ##
 if buttons.square then dofile("script.lua") end
 
--- ## MUESTRA INSTRUCCIONES PARA DESBLOQUEAR WINDOWS 10 PSP ##
-screen.print(145,170,"Presiona X para desbloquear.")
-screen.print(185,190,"Press X to unlock.")
+-- ## BARRA DE ESTADO ##
+screen.print(370,0,""..batt.lifepercent().." %",0.6)
+
+-- ## COMPOSICIÓN LOCKER ##
+if img then img:blit(0,0) end
+screen.print(15,220,os.date("%I:%M %p"),1.3)
+screen.print(18,240,"Press X to Unlock",0.6)
 
 -- ## ENTRAR AL EXPLORER ##
 if buttons.cross then dofile("explorer.lua") end
