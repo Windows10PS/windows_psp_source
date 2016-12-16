@@ -15,6 +15,7 @@ Changelog
 Alpha 1.2:
 
  -Add Cursor Support on Digital Pad.
+ 
  -Fix little error with screen support.
 
 Alpha 1.0:
