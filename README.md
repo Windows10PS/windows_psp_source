@@ -12,6 +12,11 @@ this Shell is avariable for:
 Changelog
 ---------
 
+Alpha 1.2:
+
+ -Add Cursor Support on Digital Pad.
+ -Fix little error with screen support.
+
 Alpha 1.0:
 
  -Initial basic base code.
