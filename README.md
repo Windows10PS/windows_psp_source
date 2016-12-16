@@ -12,10 +12,18 @@ this Shell is avariable for:
 Changelog
 ---------
 
+Alpha 1.4:
+
+ -Re-design Locker.
+
+ -Add Battery images.
+
+ -Fix others little errors. 
+
 Alpha 1.2:
 
  -Add Cursor Support on Digital Pad.
- 
+
  -Fix little error with screen support.
 
 Alpha 1.0:
