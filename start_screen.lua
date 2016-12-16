@@ -17,9 +17,6 @@ screen.print(200,130,""..os.nick())
 -- ## REINICIAR HOMEBREW ##
 if buttons.square then dofile("script.lua") end
 
--- ## ENCENDER PANTALLA PSP ##
-if buttons.r then system.enableDisplay() end
-
 -- ## MUESTRA INSTRUCCIONES PARA DESBLOQUEAR WINDOWS 10 PSP ##
 screen.print(145,170,"Presiona X para desbloquear.")
 screen.print(185,190,"Press X to unlock.")
