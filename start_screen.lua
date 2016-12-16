@@ -1,10 +1,15 @@
 while true do
 buttons.read()
+
+-- ## DECLARACIONES DE IMAGENES ##
 img = image.load("img/wallpaper.png")
-battery100 = image.load("img/battery/100.png")
-battery50 = image.load("img/battery/50.png")
-battery10 = image.load("img/battery/10.png")
-charge = image.load("img/battery/charge.png")
+--battery100 = image.load("img/battery/100.png")
+--battery50 = image.load("img/battery/50.png")
+--battery10 = image.load("img/battery/10.png")
+--charge = image.load("img/battery/charge.png")
+
+-- ## BACKGROUND ##
+if img then img:blit(0,0) end
 
 -- ## INICIAR WIFI DESDE EL INICIO DEL HOMEBREW ##
 --wlan.connect()
@@ -21,7 +26,6 @@ if buttons.square then dofile("script.lua") end
 screen.print(370,0,""..batt.lifepercent().." %",0.6)
 
 -- ## COMPOSICIÓN LOCKER ##
-if img then img:blit(0,0) end
 screen.print(15,220,os.date("%I:%M %p"),1.3)
 screen.print(18,240,"Press X to Unlock",0.6)
 

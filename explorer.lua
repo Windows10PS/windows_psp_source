@@ -23,18 +23,6 @@ function drawPointer(x,y,c)
 	draw.gradline(x,y-5,x,y+5,color.white,color.white)
 end
 
-function toHex(num)
-    local hexstr = '0123456789ABCDEF'
-    local s = ''
-    while num > 0 do
-        local mod = math.fmod(num, 16)
-        s = string.sub(hexstr, mod+1, mod+1) .. s
-        num = math.floor(num / 16)
-    end
-    if s == '' then s = '0' end
-    return "0x"..s
-end
-
 -- ## MOVIMIENTO CURSOR ##
 if (buttons.held.right) and x<479 then x+=1; ctx,ctx2 = img:pixel(x,y) end
 if (buttons.held.left) and x>1 then x-=1; ctx,ctx2 = img:pixel(x,y) end
