@@ -5,9 +5,7 @@ x,y=100,100
 
 buttons.read() --Iniciamos la lectura de los botones
 color.loadpalette()
-img = image.load("img/wallpaper.png")
-if img then ctx,ctx2 = img:pixel(x,y) else ctx,ctx2 = color.red,0xFFFFFF03 end
-if img then img:blit(0,0) end
+if wallpaper then wallpaper:blit(0,0) end
 
 -- ## REACCIONES BOTONES ##
 if buttons.hold then
@@ -16,20 +14,6 @@ end
 if buttons.triangle then
     dofile("start_screen.lua")
 end
-
--- ## FUNCIONES CURSOR (SOLO PSP) ## 
-function drawPointer(x,y,c)
-	draw.gradline(x-5,y,x+5,y,color.white,color.white)
-	draw.gradline(x,y-5,x,y+5,color.white,color.white)
-end
-
--- ## MOVIMIENTO CURSOR ##
-if (buttons.held.right) and x<479 then x+=1; ctx,ctx2 = img:pixel(x,y) end
-if (buttons.held.left) and x>1 then x-=1; ctx,ctx2 = img:pixel(x,y) end
-if (buttons.held.up) and y>1 then y-=1; ctx,ctx2 = img:pixel(x,y) end
-if (buttons.held.down) and y<271 then y+=1; ctx,ctx2 = img:pixel(x,y) end
-
-drawPointer(x,y,0xFFFFFF00)
 
 -- ## BARRA DE ESTADO ##
 wlan.status()
@@ -41,7 +25,7 @@ screen.print(370,0,""..batt.lifepercent().." %",0.6)
 screen.print(415,0,os.date("%I:%M %p"),0.6)
 
 -- ## ELEMENTOS / OBJETOS SELECCIONABLES ##
-screen.print(138,122,"Esta pantalla es solo de prueba para la Alpha. \n             Alpha 1.4")
+screen.print(78,122,"Esta pantalla es solo de prueba para la Alpha. \n                                (Alpha 1.5)")
 
 screen.flip()
 end

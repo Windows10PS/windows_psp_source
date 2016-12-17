@@ -1,15 +1,8 @@
 while true do
 buttons.read()
 
--- ## DECLARACIONES DE IMAGENES ##
-img = image.load("img/wallpaper.png")
---battery100 = image.load("img/battery/100.png")
---battery50 = image.load("img/battery/50.png")
---battery10 = image.load("img/battery/10.png")
---charge = image.load("img/battery/charge.png")
-
 -- ## BACKGROUND ##
-if img then img:blit(0,0) end
+if wallpaper then wallpaper:blit(0,0) end
 
 -- ## INICIAR WIFI DESDE EL INICIO DEL HOMEBREW ##
 --wlan.connect()
