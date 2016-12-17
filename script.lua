@@ -1,6 +1,9 @@
 -- ## PRESENTACIÓN CON EL LOGO DE MICROSOFT ##
 splash.old("img/splash1.png")
 
+-- ## CARGA VARIABLES IMAGENES ##
+dofile("img/imagenes.lua")
+
 -- ## CARGA DE LIBRERÍA WAVE ##
 dofile("libs/wavelib.lua")
 dofile("wave/splash.lua")
