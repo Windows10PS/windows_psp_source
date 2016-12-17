@@ -40,5 +40,8 @@ end
 screen.print(370,0,""..batt.lifepercent().." %",0.6)
 screen.print(415,0,os.date("%I:%M %p"),0.6)
 
+-- ## ELEMENTOS / OBJETOS SELECCIONABLES ##
+screen.print(138,122,"Esta pantalla es solo de prueba para la Alpha. \n             Alpha 1.4")
+
 screen.flip()
 end
