@@ -12,6 +12,18 @@ this Shell is avariable for:
 Changelog
 ---------
 
+Alpha 1.5:
+
+ -Delete Cursor Support.
+
+ -Add new images variables.
+
+ -Add new modified Wallpaper.
+
+ -Test Explorer.exe.
+
+ -Fix More Little Things.
+
 Alpha 1.4:
 
  -Re-design Locker.
