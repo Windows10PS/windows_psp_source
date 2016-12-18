@@ -12,6 +12,24 @@ this Shell is avariable for:
 Changelog
 ---------
 
+Alpha 1.5-2:
+
+ -Add Little Features.
+
+ -Fix little errors.
+
+ -Delete unused 'menu.lua'
+
+ -Big update: 20% of Explorer.lua completed and move to 'Apps' Folder
+
+ -Remove wrong login with password.
+
+Alpha 1.5-1:
+
+ -Add cursor image variable.
+
+ -Fix little more things.
+
 Alpha 1.5:
 
  -Delete Cursor Support.
