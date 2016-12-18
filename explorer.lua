@@ -9,6 +9,11 @@ if wallpaper then wallpaper:blit(0,0) end
 if buttons.hold then
     dofile("start_screen.lua")
 end
+if buttons.held.hold then
+    dofile("start_screen.lua")
+    else
+    dofile("explorer.lua")
+end
 if buttons.triangle then
     dofile("start_screen.lua")
 end

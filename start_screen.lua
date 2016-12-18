@@ -23,7 +23,11 @@ screen.print(15,220,os.date("%I:%M %p"),1.3)
 screen.print(18,240,"Press X to Unlock",0.6)
 
 -- ## ENTRAR AL EXPLORER ##
-if buttons.cross then dofile("explorer.lua") end
+if buttons.cross then 
+    if osk.init("Contraseña",""..os.password(),1) then
+        dofile("explorer.lua")
+    end
+end
 
 screen.flip()
 end
