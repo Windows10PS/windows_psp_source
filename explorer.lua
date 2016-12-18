@@ -1,7 +1,5 @@
 -- ## BUCLE DE EXPLORER ##
 while true do
--- ## ELECCIÓN X Y PARA PARTIR EL CURSOR ##
-x,y=100,100
 
 buttons.read() --Iniciamos la lectura de los botones
 color.loadpalette()
