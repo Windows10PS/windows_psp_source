@@ -18,7 +18,6 @@ end
 -- ## BARRA DE ESTADO ##
 wlan.status()
 if wlan.status == 1 then
-    wifi = image.load("img/wifi.png")
     if wifi then wifi:blit(0,0) end
 end
 screen.print(370,0,""..batt.lifepercent().." %",0.6)
