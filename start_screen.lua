@@ -24,7 +24,7 @@ screen.print(18,240,"Press X to Unlock",0.6)
 
 -- ## ENTRAR AL EXPLORER ##
 if buttons.cross then 
-    dofile("apps/explorer.lua")
+    dofile("apps/explorer/explorer.lua")
 end
 
 screen.flip()
