@@ -12,6 +12,10 @@ this Shell is avariable for:
 Changelog
 ---------
 
+Alpha 1.6:
+
+-Add MouseLib support Again (Working).
+
 Alpha 1.5-2:
 
  -Add Little Features.
