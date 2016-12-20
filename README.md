@@ -66,6 +66,6 @@ this Shell is avariable for:
 
 # Developers
 
- - [@ROM- PacMe](https://github.com/ROM- PacMe)
+ - [@ROM-PacMe](https://github.com/ROM-PacMe)
 
  - [@KillingName](https://github.com/KillingName)
