@@ -4,69 +4,68 @@ This repo is for publish the last releases of own Shell/Homebrew called "Windows
 
 this Shell is avariable for:
  
- -PSP (1000 - 2000 - 3000 - E1000 Street).
+ - PSP (1000 -  2000 -  3000 -  E1000 Street).
  
- -PSP GO.
+ - PSP GO.
   
 
-Changelog
----------
+#Changelog
 
-Alpha 1.6:
+# Alpha 1.6:
 
--Add MouseLib support Again (Working).
+- Add MouseLib support Again (Working).
 
-Alpha 1.5-2:
+# Alpha 1.5- 2:
 
- -Add Little Features.
+ - Add Little Features.
 
- -Fix little errors.
+ - Fix little errors.
 
- -Delete unused 'menu.lua'
+ - Delete unused 'menu.lua'
 
- -Big update: 20% of Explorer.lua completed and move to 'Apps' Folder
+ - Big update: 20% of Explorer.lua completed and move to 'Apps' Folder
 
- -Remove wrong login with password.
+ - Remove wrong login with password.
 
-Alpha 1.5-1:
+# Alpha 1.5- 1:
 
- -Add cursor image variable.
+ - Add cursor image variable.
 
- -Fix little more things.
+ - Fix little more things.
 
-Alpha 1.5:
+# Alpha 1.5:
 
- -Delete Cursor Support.
+ - Delete Cursor Support.
 
- -Add new images variables.
+ - Add new images variables.
 
- -Add new modified Wallpaper.
+ - Add new modified Wallpaper.
 
- -Test Explorer.exe.
+ - Test Explorer.exe.
 
- -Fix More Little Things.
+ - Fix More Little Things.
 
-Alpha 1.4:
+# Alpha 1.4:
 
- -Re-design Locker.
+ - Re- design Locker.
 
- -Add Battery images.
+ - Add Battery images.
 
- -Fix others little errors. 
+ - Fix others little errors. 
 
-Alpha 1.2:
+# Alpha 1.2:
 
- -Add Cursor Support on Digital Pad.
+ - Add Cursor Support on Digital Pad.
 
- -Fix little error with screen support.
+ - Fix little error with screen support.
 
-Alpha 1.0:
+# Alpha 1.0:
 
- -Initial basic base code.
+ - Initial basic base code.
 
 
 # Developers
 
- - [@ROM-PacMe](https://github.com/ROM-PacMe)
+ - [@ROM- PacMe](https://github.com/ROM- PacMe)
 
  - [@KillingName](https://github.com/KillingName)
