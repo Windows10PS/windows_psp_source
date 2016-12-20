@@ -63,3 +63,10 @@ Alpha 1.2:
 Alpha 1.0:
 
  -Initial basic base code.
+
+
+# Developers
+
+ - [@ROM-PacMe](https://github.com/ROM-PacMe)
+
+ - [@KillingName](https://github.com/KillingName)
