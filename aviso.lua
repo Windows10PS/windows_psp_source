@@ -1,6 +1,6 @@
 buttons.read()
 
-answer = os.message("Esta es una prueba de booteo para que el OS no se cuelgue.\n\nEsto se hace más que nada para alivianar la memoria de la PSP. \nContinuar?", 1)
+answer = os.message("Bienvenido a la Alpha 1.7 de Windows 10 PSP \n\nDesarrolladores: \nROM-PAcMe \nKillingName", 1)
 
 if answer == 0 then
     os.exit()

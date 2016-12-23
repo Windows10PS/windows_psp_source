@@ -11,9 +11,15 @@ this Shell is avariable for:
 
 #Changelog
 
+# Alpha 1.7:
+
+ - Add new 'Aviso.lua'.
+
+ - Delete .git from 'Explorer' folder.
+
 # Alpha 1.6:
 
-- Add MouseLib support Again (Working).
+ - Add MouseLib support Again (Working).
 
 # Alpha 1.5- 2:
 
