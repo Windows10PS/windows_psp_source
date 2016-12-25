@@ -12,3 +12,12 @@ charge = image.load("img/battery/charge.png")
 
 -- ## CURSOR ##
 cursor = image.load("img/windows.png")
+
+-- ## BALDOSAS ##
+config = image.load("img/baldosas/Configuracion.png")
+
+-- ## AJUSTES ##
+fondo_ajustes = image.load("apps/ajustes/res/fondo_ajustes.png")
+
+-- ## GROOVE MUSIC ##
+fondo_groove = image.load("apps/groove/res/fondo_groove.png")

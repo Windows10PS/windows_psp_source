@@ -9,7 +9,21 @@ this Shell is avariable for:
  - PSP GO.
   
 
-#Changelog
+# Changelog
+
+# Betas:
+
+# Beta 0.5:
+
+ - Add much complements to update to Beta 0.5.
+
+ - Add Groove Music (only background and is not avariable for this moment).
+
+ - Add Settings (Only background) [Spanish].
+
+ - Add more interesting things.
+
+# Alphas: 
 
 # Alpha 1.7:
 
