@@ -13,6 +13,12 @@ this Shell is avariable for:
 
 # Betas:
 
+# Beta 0.7:
+
+ - Add new Battery Charge detector.
+
+ - fix little things and more.
+
 # Beta 0.5:
 
  - Add much complements to update to Beta 0.5.

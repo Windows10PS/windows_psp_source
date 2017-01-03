@@ -5,19 +5,18 @@ wallpaper = image.load("img/wallpaper.png")
 
 -- ## ICONOS DE BARRA DE ESTADO ##
 wifi = image.load("img/wifi.png")
-battery100 = image.load("img/battery/100.png")
-battery50 = image.load("img/battery/50.png")
-battery10 = image.load("img/battery/10.png")
-charge = image.load("img/battery/charge.png")
+battery = image.load("img/battery/battery.png")
+charging = image.load("img/battery/charge.png")
 
 -- ## CURSOR ##
 cursor = image.load("img/windows.png")
 
--- ## BALDOSAS ##
-config = image.load("img/baldosas/Configuracion.png")
-
 -- ## AJUSTES ##
-fondo_ajustes = image.load("apps/ajustes/res/fondo_ajustes.png")
+ajustes = image.load("apps/ajustes/res/fondo_ajustes.png")
+ajustes_icon = image.load("img/baldosas/Configuracion.png")
 
 -- ## GROOVE MUSIC ##
-fondo_groove = image.load("apps/groove/res/fondo_groove.png")
+groove = image.load("apps/groove/res/fondo_groove.png")
+
+-- ## RELOJ ##
+reloj = image.load("")
